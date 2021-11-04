@@ -1,4 +1,4 @@
-h# Linux/SQL Monitoring Agent Project
+# Linux/SQL Monitoring Agent Project
 
 ## Introduction
 
@@ -7,7 +7,7 @@ The purpose of this project is to implement an architecture that will allow for 
 
 To elaborate in further detail, a PostgreSQL instance is provisioned with Docker, with a host_agent database containing 2 scripts that collect hardware information and CPU/Memory information, respectively.
 
-###### Host Agent
+##### **Host Agent**
 `host_info.sh`
 This script file collects all information regarding host hardware, by parsing through a command via Linux bash.
 
@@ -24,12 +24,14 @@ Quick start commands used to initialize project steps:
 - Start a psql instance using psql_docker.sh
 ```
 #Starting the PSQL Docker script.
+
 ./scripts/psql_docker.sh start
 ```
 
 - Create tables using ddl.sql
 ```
 #Execute ddl.sql script on the host_agent database against the psql instance
+
 psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 ```
 
@@ -50,7 +52,6 @@ bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 
 
 ## Implemenation
-Discuss how you implement the project.
 
 ### Architecture
 ![Image of Project Architecture](./assets/architecture.png)
@@ -58,6 +59,7 @@ Discuss how you implement the project.
 ### Scripts
 Shell script description and usage (use markdown code block for script usage)
 - psql_docker.sh
+
 *The `psql_docker` script comes with 3 options: create, start & stop. These can be initialized as per demonstrated code below:*
 ```
 #Creating a psql_docker instance with a username and password.
@@ -70,22 +72,26 @@ Shell script description and usage (use markdown code block for script usage)
 ./scripts/psql_docker.sh stop
 ```
 - host_info.sh and host_usage.sh
+
 *The `host_info.sh` and `host_usage.sh` scripts collect information on hardware and CPU/Memory usage, respectively. A hostname, port number, database name, and username/password for psql are needed as inputs.*
 ```
-#There are a total of 5 inputs after the script: host,port #, db name, psql user, psql password.
+#host_info - there are a total of 5 inputs after the script: host,port #, db name, psql user, psql password.
 ./scripts/host_info.sh localhost 5432 host_agent postgres password
 
-#There are a total of 5 inputs after the script: host,port #, db name, psql user, psql password.
+#host_usage - there are a total of 5 inputs after the script: host,port #, db name, psql user, psql password.
 bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 ```
 - crontab
+
 *The crontab command allows you to automate the process for calling the host_usage.sh script.*
 `crontab -e`
+
 *Then inside the crontab editor:*
 ```
 * * * * * bash /home/centos/dev/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 - queries.sql
+
 *There are a series of business problems that are pending to be solved, including average memory usage and tracking crontab failures. These can be solved by the bulit in SQL queries embedded in the script.*
 ```
 #Executing the SQL file against the host_agent database that is created. 
@@ -94,7 +100,7 @@ psql -h localhost -p 5432 -U postgres -d host_agent -f queries.sql
 ```
 
 ### Database Modeling
-Describe the schema of each table using markdown table syntax (do not put any sql code)
+The schemas of both host_info and host_usage tables with their instantiated variables can be seen below:
 ##### host_info
 
 id | hostname | cpu_number | cpu_architecture | cpu_model | cpu_mhz | L2_cache | total_mem | timestamp
