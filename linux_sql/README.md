@@ -3,9 +3,10 @@
 ## Introduction
 
 The Jarvis Linux Cluster Admin (LCA) team manages a cluster of multiple nodes/servers that run on the CentOS 7 platform. These are connected via a local ethernet switch and communicate internally via IPv4 addresses. 
+
 The purpose of this project is to implement an architecture that will allow for monitoring/usage of these nodes (CPU/Memory) in real time and store these onto a RDBMS database for retrieval via scripts. (PostgreSQL, Linux Bash).
 
-To elaborate in further detail, a PostgreSQL instance is provisioned with Docker, with a host_agent database containing 2 scripts that collect hardware information and CPU/Memory information, respectively.
+To elaborate in further detail, a PostgreSQL instance is provisioned with Docker, with a host_agent database containing 2 scripts that collect hardware information and CPU/Memory information, respectively:
 
 ##### **Host Agent**
 `host_info.sh`
@@ -96,6 +97,7 @@ bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 ```
 #Executing the SQL file against the host_agent database that is created. 
 #This command requires a hostname, port #, username, database name, and finally the sql file name that is to be run against the database.
+
 psql -h localhost -p 5432 -U postgres -d host_agent -f queries.sql
 ```
 
