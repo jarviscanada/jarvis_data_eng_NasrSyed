@@ -1,4 +1,4 @@
-# Linux/SQL Monitoring Agent Project
+h# Linux/SQL Monitoring Agent Project
 
 ## Introduction
 
@@ -95,12 +95,14 @@ psql -h localhost -p 5432 -U postgres -d host_agent -f queries.sql
 
 ### Database Modeling
 Describe the schema of each table using markdown table syntax (do not put any sql code)
-- `host_info`
+##### host_info
+
 id | hostname | cpu_number | cpu_architecture | cpu_model | cpu_mhz | L2_cache | total_mem | timestamp
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 SERIAL NOT NULL PRIMARY KEY | VARCHAR NOT NULL UNIQUE | INT NOT NULL | VARCHAR NOT NULL | VARCHAR NOT NULL | FLOAT(3) | INT NOT NULL | INT NOT NULL | TIMESTAMP NOT NULL
 
-- `host_usage`
+##### host_usage
+
 timestamp | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 TIMESTAMP NOT NULL | SERIAL REFERENCES host_info(id) NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL 
