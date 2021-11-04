@@ -104,7 +104,7 @@ SERIAL NOT NULL PRIMARY KEY | VARCHAR NOT NULL UNIQUE | INT NOT NULL | VARCHAR N
 ##### host_usage
 
 timestamp | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available
---- | --- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | ---
 TIMESTAMP NOT NULL | SERIAL REFERENCES host_info(id) NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL | INT NOT NULL 
 
 
