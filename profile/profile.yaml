@@ -68,9 +68,11 @@ highlighted_projects:
     #project name
   - name: "ETL Project for Market Exchange Data"
     #URL is optional
+    git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)"
--   name: "SQL Database on IBM Db2"
+  - name: "SQL Database on IBM Db2"
+    git_url:
     description: "Utilized raw CSV data provided by Chicago Data Portal on socioeconomic factors and crime data. Stored datasets on IBM Db2 and derived SQL queries for insights on health, safety, and environments of Chicago schools. (MySQL, IBM Db2)"
 
 #List of professional experience
@@ -87,11 +89,11 @@ professional_experience:
     company: "Morrison Hershfield"
     duration: "Apr 2021 - Oct 2021"
     description: "Spearheaded technical management and oversight of 100+ electrical projects for 5G tower upgrades. Assisted senior engineers with electrical design and led weekly update meetings on project status."
-    title: "Electrical Engineer"
+  - title: "Electrical Engineer"
     company: "The HIDI Group"
     duration: "Jan 2019 - Jan 2021"
     description: "Engineered electrical system design for buildings in accordance with OBC, OESC & other relevant codes/standards. Designed electrical drawings in AutoCAD."
-    title: "Design Technician"
+  - title: "Design Technician"
     company: "Telecon"
     duration: "May 2018 - Dec 2018"
     description: "Liased with Project Engineers, Project Coordinators and CAD technicians to complete Hydro pole assessments. Designed CAD drawings from concept to final release."
@@ -103,6 +105,8 @@ education:
     duration: "2013-2017"
     degree: "Bachelor of Engineering - Electrical Engineering"
     department: "Electrical and Computer Engineering"
+    # optional
+    awards_achievements:
 
 #Optional section
 others:
