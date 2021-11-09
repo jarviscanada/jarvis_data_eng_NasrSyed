@@ -1,21 +1,21 @@
 # Nasr Syed . Jarvis Consulting
 
-Updating from my local pc !!!!!s a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+My name is Nasr Syed, and I am a highly ambitious Data Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University, along with a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about 3 years, with the last 6 months in Project Management at top name firms located in Toronto. As displayed by my successful track record, I am someone who thrives, and pushes himself to be an engineer of the highest caliber. Now having found true passion, I am determined to make an impact in the world of big data.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git/GitFlow/GitHub
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Docker, MongoDB, Cloud platforms (GCP,AWS), REST APIs, Numpy/Pandas
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Spark, Scala, Hadoop, HTTP Requests, Apache Cassandra
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Linux Cluster Monitoring Agent** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/linux_sql)]: Architected a routine monitoring agent script which tracked a cluster of nodes/servers running on CentOS 7 Linux distribution. Bash scripts retrieving host hardware, CPU and Memory usage were deployed, and provisioned via Docker. Results were periodically stored into a PostgreSQL database via crontab job.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/core_java)]:
       
@@ -35,30 +35,30 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**ETL Project for Market Exchange Data**: Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**SQL Database on IBM Db2**: Utilized raw CSV data provided by Chicago Data Portal on socioeconomic factors and crime data. Stored datasets on IBM Db2 and derived SQL queries for insights on health, safety, and environments of Chicago schools. (MySQL, IBM Db2)
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Engineer, Jarvis (Oct 2021-Present)**: Worked in an Agile/Scrum environment to work on software projects with a team of Software Engineers. Worked as part of a team to design, implement, test and deploy features on a product. Daily scrum meetings were held to discuss issues and to set goals for the day. Weekly code reviews were done by senior developers to ensure code works as expected and to meet standards. Worked on features via tickets and uploaded code to GitHub for version control. To manage branches and features, the GitFlow methodology was followed on all projects.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Project Coordinator/Electrical Engineer, Morrison Hershfield (Apr 2021 - Oct 2021)**: Spearheaded technical management and oversight of 100+ electrical projects for 5G tower upgrades. Assisted senior engineers with electrical design and led weekly update meetings on project status.
+
+**Electrical Engineer, The HIDI Group (Jan 2019 - Jan 2021)**: Engineered electrical system design for buildings in accordance with OBC, OESC & other relevant codes/standards. Designed electrical drawings in AutoCAD.
+
+**Design Technician, Telecon (May 2018 - Dec 2018)**: Liased with Project Engineers, Project Coordinators and CAD technicians to complete Hydro pole assessments. Designed CAD drawings from concept to final release.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Ryerson University (2013-2017)**, Bachelor of Engineering - Electrical Engineering, Electrical and Computer Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
+- Data Engineering Professional Certificate - IBM
 - Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Learning World History - currently learning about the Ottoman Turks
+- Weightlifting and exercise
+- Snowboarding
+- Marvel comics
