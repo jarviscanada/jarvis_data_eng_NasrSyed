@@ -1,12 +1,12 @@
 # Nasr Syed . Jarvis Consulting
 
-I am a highly ambitious Data Engineer that is interested in breaking into the field of data analytics. I have a successful background in Electrical Engineering and have decided to make a shift in my career towards my true passion that I have come to realize.
+Updating from my local pc !!!!!s a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** NoSQL Databases, Hadoop, Spark, abcd, Donec
+**Competent:** Donec, fermentum, Donec, fermentum, Donec
 
 **Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
 
