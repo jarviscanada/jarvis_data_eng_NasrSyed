@@ -1,37 +1,37 @@
 # Nasr Syed . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I am a highly ambitious Data Engineer that is interested in breaking into the field of data analytics. I have a successful background in Electrical Engineering and have decided to make a shift in my career towards my true passion that I have come to realize.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** NoSQL Databases, Hadoop, Spark, abcd, Donec
 
 **Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/python_data_anlytics)]: Not Started
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/hadoop)]: Not Started
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
