@@ -58,7 +58,15 @@ Apart from heap space modifications, the memory issues are also addressed via ce
 Sample test files placed in directories were used as a target example. A common *Romeo Juliet* regex pattern was inputted onto a *Shakespeare* file for testing. The result successfully returned lines that contained the *Romeo Juliet* regex pattern in an output file specified in the Intellij configurations.
 
 # Deployment
-Docker was used to deploy the application. 
+Java application was compiled and packaged via Maven (including all dependencies and packages). 
+
+Docker was used to deploy the application.
+ - Java app was compiled via maven to contain all dependencies and packages.
+ - Docker image was built, and volume was designated for text file and output file storage on the docker container.
+ - Docker image was pushed to hub.docker.com and verified.
 
 # Improvement
-List three things you can improve in this project.
+Three things that could have been improved on regarding this project: 
+1. Attention to detail when compiling code.
+2. Understanding the inner workings of the Docker commands to be able to better interpret errors in compiling.
+3. More research on any given topic to understand each concept more thoroughly. 
