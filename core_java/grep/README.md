@@ -68,7 +68,7 @@ Java application was compiled and packaged via Maven (including all dependencies
 Docker was used to deploy the application.
  - Java app was compiled via maven to contain all dependencies and packages.
  - Docker image was built, and volume was designated for text file and output file storage on the docker container.
- - Docker image was pushed to [hub.docker.com](hub.docker.com) and verified.
+ - Docker image was pushed to [hub.docker.com](https://hub.docker.com/) and verified.
 
 # Improvement
 Three things that could have been improved on regarding this project: 
