@@ -3,7 +3,7 @@
 The JDBC application developed primarily in Java deals with an RDBMS database and data manipulation of this data through OOP concepts such as Data Access Object (DAO), Data Transfer Object (DTO), and various interfaces to conjoin both the Java programming side and the relational database side of things. At the core of this Java application, are the abilities to perform create, read, update, and delete (CRUD) operations from a RDBMS created in Dockerized container of a PSQL instance. 
 Apart from the main Java implementation of the project, Maven, Docker, PostgreSQL, and a command line interface are all interconnected to produce this application. As evident in the name itself, the heart of this project lies at the concept of the JDBC API which allows Java programs to access database management systems, and thus perform database work from a Java program interface.
 
-## The project entails the following core junctions:
+### The project entails the following core junctions:
 - A Java application (using Java 8) hosts the primary tools of this data extraction system, which is packaged and managed by Maven. 
 - A PostgreSQL JDBC driver is also installed in this Maven package. 
 - A relational database is created via PostgreSQL and containerized in Docker, via the command line interface.
@@ -34,5 +34,4 @@ If a DAO is to be used, then by default a Data Transfer Object (DTO) is also to 
 THe repository design pattern is another way of dealing with data access logic. It is defined by single-table access per class. Instead of database joining, you join in code. 
 
 # Test
-How you test your app against the database? (e.g. database setup, test data set up, query result)
 The program was tested against a running Dockerized PSQL instance by calling upon the main method to retrieve basic CRUD data based on the methods developed. 
