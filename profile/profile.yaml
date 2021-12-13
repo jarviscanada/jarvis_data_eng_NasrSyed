@@ -43,9 +43,9 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
+      - "Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. "
+      - "JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database."
       - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""
