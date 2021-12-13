@@ -19,9 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/core_java)]:
       
+  - Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. 
+  - JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database.
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/springboot)]: Not Started
 
