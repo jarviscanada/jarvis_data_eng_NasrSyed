@@ -43,11 +43,8 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      #Keywords: Java 8, Lambda, Stream API, IntelliJ
-      - "Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop."
-      #Keywords: Java 8, JDBC, RDBMS, SQL, CRUD, DAO
-      - "JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods."
-
+      - "Grep App: Implemented a Java 8 application in IntelliJ that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop."
+      - "JDBC App: Architected a Java 8 application that connects to a RDBMS (PSQL) database containerized in Docker to perform basic CRUD operations between an object and respective database, through core functions of JDBC. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods, and SQL queries were processed succesfully."
 
 # List of personal or academic projects
 # Feel free to add more projects

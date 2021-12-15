@@ -11,7 +11,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_NasrSyed",
   "highlighted_projects": [
     {
-      "description": "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)",
+      "description": "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into a target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)",
       "git_url": null,
       "name": "ETL Project for Market Exchange Data"
     },
@@ -29,37 +29,11 @@
     },
     {
       "description": [
-        "Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. ",
-        "JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database.",
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Grep App: Implemented a Java 8 application in IntelliJ that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop.",
+        "JDBC App: Architected a Java 8 application that connects to a RDBMS (PSQL) database containerized in Docker to perform basic CRUD operations between an object and respective database, through core functions of JDBC. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods, and SQL queries were processed succesfully."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Nasr Syed",
@@ -72,16 +46,10 @@
     },
     {
       "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Learning World History - currently learning about the Ottoman Turks",
+        "Learning World History",
         "Weightlifting and exercise",
         "Snowboarding",
-        "Marvel comics"
+        "Used to read a lot of Marvel comics"
       ],
       "title": "Activities/Hobbies"
     }
@@ -136,5 +104,5 @@
       "Git/GitFlow/GitHub"
     ]
   },
-  "summary": "My name is Nasr Syed, and I am a highly ambitious Data Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University, along with a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about 3 years, with the last 6 months in Project Management at top name firms located in Toronto. As displayed by my successful track record, I am someone who thrives, and pushes himself to be an engineer of the highest caliber. Now having found true passion, I am determined to make an impact in the world of big data."
+  "summary": "My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data."
 }
