@@ -1,0 +1,107 @@
+# Preferred name (Characters only)
+name: "Nasr Syed"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NasrSyed
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git/GitFlow/GitHub
+  # At least 5 skills
+  competent:
+    - Docker
+    - MongoDB
+    - Cloud platforms (GCP,AWS)
+    - REST APIs
+    - Numpy/Pandas
+  # At least 5 skills
+  familiar:
+    - Spark
+    - Scala
+    - Hadoop
+    - HTTP Requests
+    - Apache Cassandra
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Linux Cluster Monitoring Agent"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Architected a routine monitoring agent script which tracked a cluster of nodes/servers running on CentOS 7 Linux distribution. Bash scripts retrieving host hardware, CPU and Memory usage were deployed, and provisioned via Docker. Results were periodically stored into a PostgreSQL database via crontab job.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Grep App: Implemented a Java 8 application in IntelliJ that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop."
+      - "JDBC App: Architected a Java 8 application that connects to a RDBMS (PSQL) database containerized in Docker to perform basic CRUD operations between an object and respective database, through core functions of JDBC. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods, and SQL queries were processed succesfully."
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "ETL Project for Market Exchange Data"
+    #URL is optional
+    git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into a target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)"
+  - name: "SQL Database on IBM Db2"
+    git_url:
+    description: "Utilized raw CSV data provided by Chicago Data Portal on socioeconomic factors and crime data. Stored datasets on IBM Db2 and derived SQL queries for insights on health, safety, and environments of Chicago schools. (MySQL, IBM Db2)"
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Engineer"
+    company: "Jarvis"
+    duration: "Oct 2021-Present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Worked in an Agile/Scrum environment to work on software projects with a team of Software Engineers. Worked as part of a team to design, implement, test and deploy features on a product. Daily scrum meetings were held to discuss issues and to set goals for the day. Weekly code reviews were done by senior developers to ensure code works as expected and to meet standards. Worked on features via tickets and uploaded code to GitHub for version control. To manage branches and features, the GitFlow methodology was followed on all projects."
+  - title: "Project Coordinator/Electrical Engineer"
+    company: "Morrison Hershfield"
+    duration: "Apr 2021 - Oct 2021"
+    description: "Spearheaded technical management and oversight of 100+ electrical projects for 5G tower upgrades. Assisted senior engineers with electrical design and led weekly update meetings on project status."
+  - title: "Electrical Engineer"
+    company: "The HIDI Group"
+    duration: "Jan 2019 - Jan 2021"
+    description: "Engineered electrical system design for buildings in accordance with OBC, OESC & other relevant codes/standards. Designed electrical drawings in AutoCAD."
+  - title: "Design Technician"
+    company: "Telecon"
+    duration: "May 2018 - Dec 2018"
+    description: "Liased with Project Engineers, Project Coordinators and CAD technicians to complete Hydro pole assessments. Designed CAD drawings from concept to final release."
+
+
+#List of education
+education: 
+  - school_name: "Ryerson University"
+    duration: "2013-2017"
+    degree: "Bachelor of Engineering - Electrical Engineering"
+    department: "Electrical and Computer Engineering"
+    # optional
+    awards_achievements:
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Data Engineering Professional Certificate - IBM"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Learning World History"
+      - "Weightlifting and exercise"
+      - "Snowboarding"
+      - "Used to read a lot of Marvel comics"
