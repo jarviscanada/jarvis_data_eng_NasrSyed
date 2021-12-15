@@ -46,7 +46,6 @@ jarvis_projects:
       - "Grep App: Implemented a Java 8 application in IntelliJ that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop."
       - "JDBC App: Architected a Java 8 application that connects to a RDBMS (PSQL) database containerized in Docker to perform basic CRUD operations between an object and respective database, through core functions of JDBC. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods, and SQL queries were processed succesfully."
 
-
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -100,9 +99,6 @@ others:
     #list of items
     bullets:
       - "Data Engineering Professional Certificate - IBM"
-  - title: "Awards"
-    bullets:
-
   - title: "Activities/Hobbies"
     bullets:
       - "Learning World History"

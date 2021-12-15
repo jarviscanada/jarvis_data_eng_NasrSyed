@@ -1,6 +1,6 @@
 # Nasr Syed . Jarvis Consulting
 
-My name is Nasr Syed, and I am a highly ambitious Data Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University, along with a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about 3 years, with the last 6 months in Project Management at top name firms located in Toronto. As displayed by my successful track record, I am someone who thrives, and pushes himself to be an engineer of the highest caliber. Now having found true passion, I am determined to make an impact in the world of big data.
+My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data.
 
 ## Skills
 
@@ -19,23 +19,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/core_java)]:
       
-  - Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. 
-  - JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database.
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NasrSyed/tree/master/cloud_devops)]: Not Started
+  - Grep App: Implemented a Java 8 application in IntelliJ that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop.
+  - JDBC App: Architected a Java 8 application that connects to a RDBMS (PSQL) database containerized in Docker to perform basic CRUD operations between an object and respective database, through core functions of JDBC. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods, and SQL queries were processed succesfully.
 
 
 ## Highlighted Projects
-**ETL Project for Market Exchange Data**: Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)
+**ETL Project for Market Exchange Data**: Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into a target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)
 
 **SQL Database on IBM Db2**: Utilized raw CSV data provided by Chicago Data Portal on socioeconomic factors and crime data. Stored datasets on IBM Db2 and derived SQL queries for insights on health, safety, and environments of Chicago schools. (MySQL, IBM Db2)
 
@@ -57,8 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](
 
 ## Miscellaneous
 - Data Engineering Professional Certificate - IBM
-- Winner
-- Learning World History - currently learning about the Ottoman Turks
+- Learning World History
 - Weightlifting and exercise
 - Snowboarding
-- Marvel comics
+- Used to read a lot of Marvel comics
