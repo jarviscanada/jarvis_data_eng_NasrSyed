@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NasrSyed
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Nasr Syed, and I am a highly ambitious Data Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University, along with a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about 3 years, with the last 6 months in Project Management at top name firms located in Toronto. As displayed by my successful track record, I am someone who thrives, and pushes himself to be an engineer of the highest caliber. Now having found true passion, I am determined to make an impact in the world of big data.
+summary: My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -43,24 +43,11 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. "
-      - "JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database."
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+      #Keywords: Java 8, Lambda, Stream API, IntelliJ
+      - "Grep App: Implemented a Java application that takes in parameters for a regex pattern and returns matching lines containing this pattern from all text files in the target directory to an output text file. Used recursive methods for the main functionality of the application and incorporated various methods to handle specific tasks, and merged together in a for-loop."
+      #Keywords: Java 8, JDBC, RDBMS, SQL, CRUD, DAO
+      - "JDBC App: Architected a Java application that connects to a PSQL database containerized in Docker to perform basic CRUD operations between an object and respective database. Functionality of this program utilized core concepts such as DAO and DTO, incorporated into the methods."
+
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -70,7 +57,7 @@ highlighted_projects:
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)"
+    description: "Extracted exchange rate data from all countries from CSV, JSON and XML files into a dataframe, transformed currency data, and loaded data into a target CSV file. Formulated logging function to track/provide timestamps and logging details of ETL process. (Python, Pandas)"
   - name: "SQL Database on IBM Db2"
     git_url:
     description: "Utilized raw CSV data provided by Chicago Data Portal on socioeconomic factors and crime data. Stored datasets on IBM Db2 and derived SQL queries for insights on health, safety, and environments of Chicago schools. (MySQL, IBM Db2)"
@@ -123,4 +110,4 @@ others:
       - "Learning World History"
       - "Weightlifting and exercise"
       - "Snowboarding"
-      - "Marvel comics"
+      - "Used to read a lot of Marvel comics"
