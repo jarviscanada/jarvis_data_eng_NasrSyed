@@ -21,7 +21,7 @@ Apart from the main Java implementation of the project, Maven, Docker, PostgreSQ
 
 # Implementation
 ## ER Diagram
-ER diagram
+![Image of JDBC ER Diagram](./assets/jdbc_diagram.jpg)
 
 ## Design Patterns
 There are 2 common patterns that can be used when implementing the Data Access Layer between a software program and database, the DAO pattern and the Repository Design pattern. This project specifically, uses the DAO pattern.
