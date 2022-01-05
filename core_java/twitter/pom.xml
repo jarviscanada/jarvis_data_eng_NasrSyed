@@ -21,6 +21,15 @@
 
   <!--dependencies-->
   <dependencies>
+<<<<<<< HEAD
+=======
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+>>>>>>> feature/twitter_dao
     <!--oauth 1.0 and httpclient4-->
     <dependency>
       <groupId>oauth.signpost</groupId>
