@@ -32,7 +32,7 @@ public class TwitterHttpHelper implements HttpHelper {
     consumer.setTokenWithSecret(accessToken, tokenSecret);
     /**
      * Default = single connection. Discuss source code if time permit
-     */
+     **/
     httpClient = new DefaultHttpClient();
   }
 

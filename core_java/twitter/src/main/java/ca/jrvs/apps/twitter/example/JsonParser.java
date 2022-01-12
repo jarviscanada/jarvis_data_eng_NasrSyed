@@ -42,6 +42,7 @@ public class JsonParser {
   public static void main(String[] args) throws IOException {
     Company company = toObjectFromJson(companyStr, Company.class);
     System.out.println(toJson(company,true,false));
+
   }
 
   public static final String companyStr = "{\n"
