@@ -29,10 +29,10 @@ public class TwitterDaoIntTest {
 
   @Test
   public void create() throws Exception{
-    String hashTag = "#abc";
-    String text = "@NasrSyed2 what's up " + hashTag + " " + System.currentTimeMillis();
-    Double lat = 1d;
-    Double lon = -1d;
+    String hashTag = "#snowboard #SwissAlps!";
+    String text = "@NasrSyed2 not sure how I got here... " + hashTag + " " + System.currentTimeMillis();
+    Double lat = 46.56137;
+    Double lon = 8.56189;
     Tweet postTweet = TweetUtil.buildTweet(text,lon,lat);
     System.out.println(JsonUtil.toJson(postTweet,true,true));
 
@@ -59,7 +59,7 @@ public class TwitterDaoIntTest {
 
   @Test
   public void deleteById() throws Exception{
-    String s = "1481021302790098952"; //@4:52pm
+    String s = "1481369514713432064"; //@3:57pm on Jan 12th
     Tweet tweet = dao.deleteById(s);
     assertEquals(s,tweet.getId_str());
     System.out.println(JsonUtil.toJson(tweet,true,true));
