@@ -1,7 +1,6 @@
 package ca.jrvs.apps.twitter.spring;
 
 import ca.jrvs.apps.twitter.TwitterCLIApp;
-import javafx.application.Application;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
