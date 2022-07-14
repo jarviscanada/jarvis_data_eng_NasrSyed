@@ -47,14 +47,21 @@
     {
       "bullets": [
         "Learning World History",
-        "Weightlifting and exercise",
+        "Reading - Current Book: 12 Rules for Life by Jordan Peterson",
+        "Health/Fitness",
         "Snowboarding",
-        "Used to read a lot of Marvel comics"
+        "A wide variety of media/entertainment"
       ],
       "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
+    {
+      "company": "CIBC",
+      "description": "Migrated data from CIBC's on-premises data storage to Microsoft Azure Cloud storage accounts from parquet to delta format as a part of the Data Lake team in the Enterprise Data Hub department. Responsible for writing DDL/DML scripts, validating metadata in SQL (Azure Data Studio/Oracle DB), and configuring/running ADF pipelines in Microsoft Azure. Developed scripts in DataBricks with Python and Scala to parse, clean and validate data partitions and ensure consistency in ADF pipeline runs. Established in-house documentation for Microsoft Azure deployment standards/usage and debugging/troubleshooting ADF pipelines and migration processes.",
+      "duration": "Feb 2022 - June 2022",
+      "title": "Data Engineer"
+    },
     {
       "company": "Jarvis",
       "description": "Worked in an Agile/Scrum environment to work on software projects with a team of Software Engineers. Worked as part of a team to design, implement, test and deploy features on a product. Daily scrum meetings were held to discuss issues and to set goals for the day. Weekly code reviews were done by senior developers to ensure code works as expected and to meet standards. Worked on features via tickets and uploaded code to GitHub for version control. To manage branches and features, the GitFlow methodology was followed on all projects.",
@@ -83,15 +90,15 @@
   "skills": {
     "competent": [
       "Docker",
-      "MongoDB",
-      "Cloud platforms (GCP,AWS)",
-      "REST APIs",
+      "DataBricks Notebooks",
+      "Hadoop/Hive",
+      "Cloud platforms (GCP,AWS,MS Azure)",
       "Numpy/Pandas"
     ],
     "familiar": [
       "Spark",
       "Scala",
-      "Hadoop",
+      "MongoDB",
       "HTTP Requests",
       "Apache Cassandra"
     ],
@@ -99,10 +106,11 @@
       "Java",
       "Python",
       "Linux/Bash",
+      "Microsoft Azure Cloud",
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git/GitFlow/GitHub"
     ]
   },
-  "summary": "My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data."
+  "summary": "I am highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. My latest work experience consists of a Data Engineer role at CIBC under the Enterprise Data Hub department under Jarvis Consulting Group. Prior to my employment at Jarvis, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. I decided to make the switch into the Software/Big Data world after my exposure to the field after my own personal research into this area. What intrigued me was the sheer value of data and the impact it has in every sector of the economy.  Now having found my true passion, I am determined to impact the world of big data and software."
 }
