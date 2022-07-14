@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NasrSyed
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Nasr Syed, and I am a highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. In terms of my professional work experience, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. Now having found a true passion, I am determined to impact the world of big data.
+summary: I am highly ambitious Software Engineer looking to break his way into the field of Data Analytics. My academic background consists of a Bachelor of Engineering (B.Eng) in Electrical Engineering from Ryerson University and a Data Engineering certification from IBM. My latest work experience consists of a Data Engineer role at CIBC under the Enterprise Data Hub department under Jarvis Consulting Group. Prior to my employment at Jarvis, I have been an Electrical Engineer for about three years, with the last six months in Project Management at top-name firms located in Toronto. As displayed by my successful track record, I am someone who thrives and pushes himself to be an engineer of the highest calibre. I decided to make the switch into the Software/Big Data world after my exposure to the field after my own personal research into this area. What intrigued me was the sheer value of data and the impact it has in every sector of the economy.  Now having found my true passion, I am determined to impact the world of big data and software.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -15,21 +15,22 @@ skills:
     - Java
     - Python
     - Linux/Bash
+    - Microsoft Azure Cloud
     - RDBMS/SQL
     - Agile/Scrum
     - Git/GitFlow/GitHub
   # At least 5 skills
   competent:
     - Docker
-    - MongoDB
-    - Cloud platforms (GCP,AWS)
-    - REST APIs
+    - DataBricks Notebooks
+    - Hadoop/Hive
+    - Cloud platforms (GCP,AWS,MS Azure)
     - Numpy/Pandas
   # At least 5 skills
   familiar:
     - Spark
     - Scala
-    - Hadoop
+    - MongoDB
     - HTTP Requests
     - Apache Cassandra
 
@@ -63,11 +64,15 @@ highlighted_projects:
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
+  # The project description must start with an action verb (https://bit.ly/3guO98u)
+  - title: "Data Engineer"
+    company: "CIBC"
+    duration: "Feb 2022 - June 2022"
+    description: "Migrated data from CIBC's on-premises data storage to Microsoft Azure Cloud storage accounts from parquet to delta format as a part of the Data Lake team in the Enterprise Data Hub department. Responsible for writing DDL/DML scripts, validating metadata in SQL (Azure Data Studio/Oracle DB), and configuring/running ADF pipelines in Microsoft Azure. Developed scripts in DataBricks with Python and Scala to parse, clean and validate data partitions and ensure consistency in ADF pipeline runs. Established in-house documentation for Microsoft Azure deployment standards/usage and debugging/troubleshooting ADF pipelines and migration processes."
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Data Engineer"
     company: "Jarvis"
     duration: "Oct 2021-Present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Worked in an Agile/Scrum environment to work on software projects with a team of Software Engineers. Worked as part of a team to design, implement, test and deploy features on a product. Daily scrum meetings were held to discuss issues and to set goals for the day. Weekly code reviews were done by senior developers to ensure code works as expected and to meet standards. Worked on features via tickets and uploaded code to GitHub for version control. To manage branches and features, the GitFlow methodology was followed on all projects."
   - title: "Project Coordinator/Electrical Engineer"
     company: "Morrison Hershfield"
@@ -102,6 +107,7 @@ others:
   - title: "Activities/Hobbies"
     bullets:
       - "Learning World History"
-      - "Weightlifting and exercise"
+      - "Reading - Current Book: 12 Rules for Life by Jordan Peterson"
+      - "Health/Fitness"
       - "Snowboarding"
-      - "Used to read a lot of Marvel comics"
+      - "A wide variety of media/entertainment"

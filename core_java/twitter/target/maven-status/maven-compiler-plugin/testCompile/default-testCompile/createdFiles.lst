@@ -1,0 +1,4 @@
+ca/jrvs/apps/twitter/dao/helper/TwitterHttpHelperTest.class
+ca/jrvs/apps/twitter/service/TwitterServiceIntTest.class
+ca/jrvs/apps/twitter/controller/TwitterControllerIntTest.class
+ca/jrvs/apps/twitter/dao/TwitterDaoIntTest.class
