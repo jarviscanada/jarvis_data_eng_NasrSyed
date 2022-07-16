@@ -50,6 +50,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NasrSyed](
 - Data Engineering Professional Certificate - IBM
 - Learning World History
 - Reading - Current Book: 12 Rules for Life by Jordan Peterson
-- Health/Fitness
-- Snowboarding
 - A wide variety of media/entertainment
