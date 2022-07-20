@@ -99,4 +99,3 @@ The application was first compiled and packaged using Maven and subsequently doc
    1. Instead of running the application 3 times to post 3 tweets, the application will run only once.
 2. Allow the application to show more than one tweet at a time. 
    1. Instead of running the application 3 times to show 3 tweets, the application will run only once.
-3. Have the application utilize latest version of Twitter's REST API's (v2) instead of v1.1.
