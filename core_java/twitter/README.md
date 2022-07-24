@@ -46,8 +46,6 @@ nasrsyed/twitter "post|show|delete" [options]
 # Design
 The Twitter app follows the well known MVC(minus V) design pattern. The application consists of multiple layers that make up the 
 architecture, namely the DAO Layer, Service Layer, Controller Layer and the Main Layer.
-## UML Diagram
-![uml](./assets/uml.png)
 
 ## TwitterDAO
 The Data Access Object layer (DAO) is where the standard CRUD operations are executed against the underlying storage, and in this case
