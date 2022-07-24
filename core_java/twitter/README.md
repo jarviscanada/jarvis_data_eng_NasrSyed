@@ -29,7 +29,7 @@ docker run --rm \
 -e consumerSecret=YOUR_VALUE \
 -e accessToken=YOUR_VALUE \
 -e tokenSecret=YOUR_VALUE \
-NasrSyed/twitter "post|show|delete" [options]
+nasrsyed/twitter "post|show|delete" [options]
 ```
 ***The following are arguments to the Twitter App:***
 * `consumerKey`: Consumer Key for Twitter REST API authentication.
